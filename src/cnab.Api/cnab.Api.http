@@ -1,0 +1,4 @@
+@cnab.Api_HostAddress = https://localhost:7271
+
+GET {{cnab.Api_HostAddress}}/api/v1/stores?Page=1&Size=10
+Accept: application/json
